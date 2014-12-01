@@ -160,7 +160,4 @@ def getInput(TEST_TYPE, triangle_type ,data_type, data_value):
     elif TEST_TYPE == 'dynamic':
         getMethod = globals()['get' + triangle_type]
         return getMethod(data_type)
-
-
-print getNotTriangle('negativeNumber')
     

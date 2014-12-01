@@ -5,6 +5,7 @@ import sys, getopt
 import unittest
 
 TEST_DATA_FILE = 'data.ini'
+TEST_TYPE='static'
 
 HELP_MESSAGE = """Usage: python run_triangle_test.py [OPTION][ARG]
 OPTIONS:\n
